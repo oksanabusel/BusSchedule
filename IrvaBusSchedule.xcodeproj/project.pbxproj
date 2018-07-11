@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E66904B20961E0300710F2B /* DateHelperSecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E66904A20961E0300710F2B /* DateHelperSecondScreen.swift */; };
+		4E92B5722076793800E68981 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92B5712076793800E68981 /* Model.swift */; };
+		4E92B5742076794100E68981 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92B5732076794100E68981 /* Storage.swift */; };
+		4E92B57720767A3900E68981 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92B57620767A3900E68981 /* Request.swift */; };
+		4E92B57920767CB600E68981 /* FirstScreenCellToIrva.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92B57820767CB600E68981 /* FirstScreenCellToIrva.swift */; };
+		4E9AB5FF208662060052E650 /* DateHelperFirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9AB5FE208662060052E650 /* DateHelperFirstScreen.swift */; };
+		4EB7E39E2073962C00B0DD98 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB7E39D2073962C00B0DD98 /* RootViewController.swift */; };
 		4EF5DEB32073956B008101AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF5DEB22073956B008101AE /* AppDelegate.swift */; };
-		4EF5DEB52073956B008101AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF5DEB42073956B008101AE /* ViewController.swift */; };
 		4EF5DEB82073956B008101AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EF5DEB62073956B008101AE /* Main.storyboard */; };
 		4EF5DEBA2073956B008101AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EF5DEB92073956B008101AE /* Assets.xcassets */; };
 		4EF5DEBD2073956B008101AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EF5DEBB2073956B008101AE /* LaunchScreen.storyboard */; };
+		E2E4BB3341E00CD865073A52 /* Pods_IrvaBusSchedule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 721BAC2F3FDB8176BDB4AECC /* Pods_IrvaBusSchedule.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E66904A20961E0300710F2B /* DateHelperSecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelperSecondScreen.swift; sourceTree = "<group>"; };
+		4E92B5712076793800E68981 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		4E92B5732076794100E68981 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		4E92B57620767A3900E68981 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		4E92B57820767CB600E68981 /* FirstScreenCellToIrva.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenCellToIrva.swift; sourceTree = "<group>"; };
+		4E9AB5FE208662060052E650 /* DateHelperFirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelperFirstScreen.swift; sourceTree = "<group>"; };
+		4EB7E39D2073962C00B0DD98 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		4EF5DEAF2073956B008101AE /* IrvaBusSchedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IrvaBusSchedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EF5DEB22073956B008101AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4EF5DEB42073956B008101AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4EF5DEB72073956B008101AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4EF5DEB92073956B008101AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EF5DEBC2073956B008101AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EF5DEBE2073956B008101AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63CD079690CFF82D50AC6548 /* Pods-IrvaBusSchedule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IrvaBusSchedule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IrvaBusSchedule/Pods-IrvaBusSchedule.debug.xcconfig"; sourceTree = "<group>"; };
+		721BAC2F3FDB8176BDB4AECC /* Pods_IrvaBusSchedule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IrvaBusSchedule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31B8032C0A466F4C4914C15 /* Pods-IrvaBusSchedule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IrvaBusSchedule.release.xcconfig"; path = "Pods/Target Support Files/Pods-IrvaBusSchedule/Pods-IrvaBusSchedule.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,79 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2E4BB3341E00CD865073A52 /* Pods_IrvaBusSchedule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E92B5702076791900E68981 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4E92B5712076793800E68981 /* Model.swift */,
+				4E92B5732076794100E68981 /* Storage.swift */,
+				4ECB3A7820F65417005D08E8 /* Resoures */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E92B57520767A1800E68981 /* RequestManager */ = {
+			isa = PBXGroup;
+			children = (
+				4E92B57620767A3900E68981 /* Request.swift */,
+			);
+			path = RequestManager;
+			sourceTree = "<group>";
+		};
+		4E9AB5FD2086613C0052E650 /* Data Handler */ = {
+			isa = PBXGroup;
+			children = (
+				4E9AB5FE208662060052E650 /* DateHelperFirstScreen.swift */,
+				4E66904A20961E0300710F2B /* DateHelperSecondScreen.swift */,
+			);
+			path = "Data Handler";
+			sourceTree = "<group>";
+		};
+		4ECB3A7620F652A7005D08E8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4EB7E39D2073962C00B0DD98 /* RootViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4ECB3A7720F653FA005D08E8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4E92B57820767CB600E68981 /* FirstScreenCellToIrva.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		4ECB3A7820F65417005D08E8 /* Resoures */ = {
+			isa = PBXGroup;
+			children = (
+				4ECB3A7920F65426005D08E8 /* Images */,
+			);
+			path = Resoures;
+			sourceTree = "<group>";
+		};
+		4ECB3A7920F65426005D08E8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4EF5DEB92073956B008101AE /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		4EF5DEA62073956B008101AE = {
 			isa = PBXGroup;
 			children = (
 				4EF5DEB12073956B008101AE /* IrvaBusSchedule */,
 				4EF5DEB02073956B008101AE /* Products */,
+				9553792EDD9AEE4D588B1E88 /* Pods */,
+				90CD95E0B82AC03866812D90 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +132,34 @@
 		4EF5DEB12073956B008101AE /* IrvaBusSchedule */ = {
 			isa = PBXGroup;
 			children = (
-				4EF5DEB22073956B008101AE /* AppDelegate.swift */,
-				4EF5DEB42073956B008101AE /* ViewController.swift */,
-				4EF5DEB62073956B008101AE /* Main.storyboard */,
-				4EF5DEB92073956B008101AE /* Assets.xcassets */,
 				4EF5DEBB2073956B008101AE /* LaunchScreen.storyboard */,
+				4EF5DEB22073956B008101AE /* AppDelegate.swift */,
+				4ECB3A7620F652A7005D08E8 /* Controllers */,
+				4ECB3A7720F653FA005D08E8 /* Cell */,
+				4E9AB5FD2086613C0052E650 /* Data Handler */,
+				4E92B57520767A1800E68981 /* RequestManager */,
+				4E92B5702076791900E68981 /* Model */,
+				4EF5DEB62073956B008101AE /* Main.storyboard */,
 				4EF5DEBE2073956B008101AE /* Info.plist */,
 			);
 			path = IrvaBusSchedule;
+			sourceTree = "<group>";
+		};
+		90CD95E0B82AC03866812D90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				721BAC2F3FDB8176BDB4AECC /* Pods_IrvaBusSchedule.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9553792EDD9AEE4D588B1E88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63CD079690CFF82D50AC6548 /* Pods-IrvaBusSchedule.debug.xcconfig */,
+				C31B8032C0A466F4C4914C15 /* Pods-IrvaBusSchedule.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EF5DEC12073956B008101AE /* Build configuration list for PBXNativeTarget "IrvaBusSchedule" */;
 			buildPhases = (
+				DF7B534420F410C14715BE66 /* [CP] Check Pods Manifest.lock */,
 				4EF5DEAB2073956B008101AE /* Sources */,
 				4EF5DEAC2073956B008101AE /* Frameworks */,
 				4EF5DEAD2073956B008101AE /* Resources */,
+				CE849E4E594EAB301392637B /* [CP] Embed Pods Frameworks */,
+				B30245F6BE52F4617A1C5A1E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,12 +232,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B30245F6BE52F4617A1C5A1E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IrvaBusSchedule/Pods-IrvaBusSchedule-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE849E4E594EAB301392637B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IrvaBusSchedule/Pods-IrvaBusSchedule-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IrvaBusSchedule/Pods-IrvaBusSchedule-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF7B534420F410C14715BE66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IrvaBusSchedule-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4EF5DEAB2073956B008101AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EF5DEB52073956B008101AE /* ViewController.swift in Sources */,
+				4E92B5722076793800E68981 /* Model.swift in Sources */,
+				4E92B5742076794100E68981 /* Storage.swift in Sources */,
+				4E92B57720767A3900E68981 /* Request.swift in Sources */,
+				4E66904B20961E0300710F2B /* DateHelperSecondScreen.swift in Sources */,
+				4E92B57920767CB600E68981 /* FirstScreenCellToIrva.swift in Sources */,
+				4EB7E39E2073962C00B0DD98 /* RootViewController.swift in Sources */,
+				4E9AB5FF208662060052E650 /* DateHelperFirstScreen.swift in Sources */,
 				4EF5DEB32073956B008101AE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,9 +433,11 @@
 		};
 		4EF5DEC22073956B008101AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63CD079690CFF82D50AC6548 /* Pods-IrvaBusSchedule.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3U9WW7ACAY;
 				INFOPLIST_FILE = IrvaBusSchedule/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cat.com.IrvaBusSchedule;
@@ -286,9 +449,11 @@
 		};
 		4EF5DEC32073956B008101AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C31B8032C0A466F4C4914C15 /* Pods-IrvaBusSchedule.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3U9WW7ACAY;
 				INFOPLIST_FILE = IrvaBusSchedule/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cat.com.IrvaBusSchedule;

@@ -15,6 +15,7 @@ class Model {
     var minutes: Int = 0
     var tripType: String = ""
     var isNearestTrip: Bool = false
-    var timeLeftToNearestTrip: String = ""
-    
+    var intervalToDeparture: TimeInterval = 0.0
+    var intervalToDepartureOnTheScreen: String = ""
+
 }

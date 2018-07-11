@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DateHelper {
+class DateHelperFirstScreen {
 
       class func intervalToDeparture() {
         var dateOfDeparture: Date?

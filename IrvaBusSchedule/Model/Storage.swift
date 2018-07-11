@@ -12,7 +12,8 @@ class Storage {
     
     static var shared = Storage()
     
-    var scheduleData: [Model] = []
+    var scheduleDataFirstScreen: [Model] = []
+    var scheduleDataSecondScreen: [Model] = []
     
     private init() {}
 
